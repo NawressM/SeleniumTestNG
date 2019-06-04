@@ -21,10 +21,12 @@ public class BookingFlow {
 	protected void AvaiPageRun() {
 		AvaiPage avai = new AvaiPage();
 		avai.run();
+
 	}
 
 	protected void run() {
 		homePageRun();
+
 		AvaiPageRun();
 	}
 }
